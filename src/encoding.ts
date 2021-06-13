@@ -50,6 +50,8 @@ const unsignedLEB128 = (n: number) => {
 
     buffer.push(byte);
   } while (n !== 0)
+
+  return buffer;
 };
 
 export {
